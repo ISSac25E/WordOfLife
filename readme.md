@@ -1,8 +1,8 @@
-### Word Of Life - Amir Gorkovchenko (Mid-Late 2022)
+# Word Of Life - Amir Gorkovchenko (Mid-Late 2022)
 
 This was a volunteer project I took for a neighboring church that I developed and successfully deployed.
 
-Very similar to my RTX V2, but refreshed once again and redocumented. More extensive testing has been done and other bugs improved.
+Very similar to my RTX V2, but refreshed once again and redocumented. More extensive testing has been done and other features improved. This would be the RTX V2.1
 
 Lots of the IP communication code (from RTX V2) has been modified for a different module (W5500 ethernet module)
 
