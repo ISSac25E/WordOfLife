@@ -1,8 +1,9 @@
+#include "arduino.h"
 #include "C:\Users\AVG\Documents\Electrical Main (Amir)\Arduino\Projects\WordOfLife\core\LedMacros\LedMacro\LedMacro_1.0.0.h"
 #include "C:\Users\AVG\Documents\Electrical Main (Amir)\Arduino\Projects\WordOfLife\core\LedMacros\SequenceBuild\SequenceBuild_1.0.0.h"
 
-LedMacro macros[2];
-LedMacroManager macro(macros, 2);
+LedMacro _macros[2];
+LedMacroManager macro(_macros, 2);
 
 SequenceBuild LedBuild_1;
 SequenceBuild LedBuild_2;

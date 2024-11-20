@@ -3,14 +3,14 @@
 
 /*
   changes:
-    - static variables removed. caused unknown error when used with
+    - static variables removed. caused error when used with
       multiple instances. problem should be resolved
 */
 
 /*
 purpose of this lib is to use port registers to read from pinInputs
 this lib also handles debounce and delays the start state of the button
-to prevent false positives
+to prevent false positives from brown-outs/ins
 */
 
 #ifndef PinDriver_h

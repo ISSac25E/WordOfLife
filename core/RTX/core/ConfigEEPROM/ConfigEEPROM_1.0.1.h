@@ -28,7 +28,7 @@ public:
   ConfigEEPROM(uint8_t, bool); // set number of sectors and weather you want the entire eeprom flashed every time(true)(active sectors and inactive) or just the active sectors(false). input(numberOfSectors, writeEntireEE)
   bool read(uint8_t *);        // read the entire configured eeprom and check ed(error detection). input(dataArray(return)) dataArray must be the size of (sectors * 8). output true = ed successful/no faults found, false = ed failed/bad eeprom/corrupted
   void write(uint8_t *);       // SET write to eeprom. input(dataArray). dataArray must be the size of (sectors * 8). the actual writing will be handled in "run()"
-  bool write();                // returns weather or not the eeprom is currently writing. return true = writeing, false = not writing(standby)
+  bool write();                // returns weather or not the eeprom is currently writing. return true = writing, false = not writing(standby)
   bool run();                  // handles write proccess to eeprom. Does ed and writes only one byte each run until writing is completed. returns true if writing, false if done writing.
   uint16_t progressBytes();    // returns how many bytes have been writen so far. returns 0 if not writing or just beginning
   uint16_t totalBytes();       // return total number of byte to be written/active bytes
