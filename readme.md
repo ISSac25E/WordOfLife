@@ -48,9 +48,13 @@ The External and built in status lights are show here. The external tally connec
 
 <img src="image-1.png" alt="alt text" width="500" />
 
+Testing Tallies over 30ft AUX
+![alt text](<IMG-245d40f7614dc0ef0e9417450b08620e-V (1).jpg>)
+
 \
 \
-The inside of the Ethernet interface is shown here. Everything was custom cut and soldered:
+The inside of the Ethernet interface is shown here. Everything was custom cut and soldered.\
+Two Arduino Pro minis (ethernet interface and master interface) together with a W5500
 
 <img src="image-2.png" alt="alt text" width="500" />
 
@@ -59,3 +63,8 @@ The inside of the Ethernet interface is shown here. Everything was custom cut an
 Configuration of the pedal Ethernet as follows:
 
 <img src="image-3.png" alt="alt text" width="500" />
+
+## Videos
+https://youtu.be/sTRpgctFRwg
+
+https://youtu.be/4-CrCbQiMDo
