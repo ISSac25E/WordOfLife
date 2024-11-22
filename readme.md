@@ -62,6 +62,6 @@ Configuration of the pedal Ethernet as follows:
 <img src="image-3.png" alt="alt text" width="500" />
 
 ## Videos
-https://youtu.be/sTRpgctFRwg
+[Word Of Life Connection Demo](https://youtu.be/sTRpgctFRwg)
 
-https://youtu.be/4-CrCbQiMDo
+[Word Of Life Pedal Demo](https://youtu.be/4-CrCbQiMDo)
