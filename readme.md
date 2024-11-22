@@ -48,9 +48,6 @@ The External and built in status lights are show here. The external tally connec
 
 <img src="image-1.png" alt="alt text" width="500" />
 
-Testing Tallies over 30ft AUX
-![alt text](<IMG-245d40f7614dc0ef0e9417450b08620e-V (1).jpg>)
-
 \
 \
 The inside of the Ethernet interface is shown here. Everything was custom cut and soldered.\
